@@ -1,0 +1,154 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+html{
+    padding:0 20px;
+}
+
+
+.header{
+   margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.side-arrow{
+    position: absolute;
+    left:10px;
+    top:26px;
+    border-radius: 50%;
+    img{
+        height: 15px;
+    }
+}
+
+.title{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    backdrop-filter: blur(20px);
+    /* box-shadow: 0 3px 10px #60d0d1;; */
+}
+
+.header-btn{
+    font-size: 1rem;
+    background-color: #60d0d1;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 6px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 3px 10px #60d0d1;;
+}
+
+
+
+
+
+/* Body */
+
+.body{
+    margin-top: 30px;
+}
+.body-btns{
+
+    button{
+        font-size: 0.9rem;
+        margin: 0 5px 0 0;
+        padding: 5px 110px ;
+        border:none ;
+        &:hover{
+            cursor: pointer;
+        }
+        
+    }
+
+}
+#selected{
+    border-bottom: 2px solid black;
+}
+
+
+/* BODY -- TABLE CSS */
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  th{
+    background: #b4e9e9 !important ; 
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .table__total{
+    display: flex;
+    justify-content:space-between;
+  }
+
+
+
+
+
+
+
+
+  /* css for drop down table  */
+
+  /* .app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .packages-container {
+    margin-top: 10px;
+  }
+  
+  .package {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .package-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .package-header input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .activity-container {
+    padding-left: 20px;
+  }
+  
+  .activity-header {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .work-item {
+    padding: 5px 10px;
+  }
+  
+  .price {
+    margin-left: 20px;
+  }
+   */
